@@ -186,10 +186,14 @@ ul>li{
  .pic{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
  }
  .pic-2{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
  }
 }
 
