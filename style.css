@@ -90,6 +90,7 @@ ul>li{
 /* community */
 .community-container{
     margin-top: 100px;
+    
 }
 .members{
     display: flex;
@@ -134,10 +135,64 @@ ul>li{
     display: flex;
 }
 
+.main-part-2{
+    margin-top: 100px;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+ background-color: #E5F0FD;
+    justify-content: space-around;
+}
+.main-image{
+display: flex;
+gap: 30px;
+border-radius: 25px 25px 25px 25px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    
+
+
+}
+.main-part-3{
+    margin-top: 100px;
+   
+ 
+}
+.image-three{
+  display: flex; gap: 30px; padding-left: 100px;
+}
+
+
+
+.main-footer{
+    margin-top: 100px;
+}
+
+
+
+/* footer part */
+.khan{
+    margin-top: 100px;
+    display: flex; 
+    gap: 90px;
+    align-items: center;
+    padding-left: 100px;
+  
+}
+.image-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* responsive */
 @media screen and (max-width:576px){
+   
 
-
+    
+  .main-foot{
+    display: flex;
+flex-direction: column;
+  }
     .nav-contaniner{
         display: flex;
         flex-direction: column;
@@ -157,6 +212,7 @@ ul>li{
      .search-box{
         display: flex;
         justify-content: center;
+        align-items: center;
     } 
 .netbook-container{
     display: flex;
@@ -195,7 +251,78 @@ ul>li{
     align-items: center;
     
  }
+ .main-text{
+    text-align: center;
+ }
+ .main-part-2{
+    display: flex;
+    flex-direction: column;
+ }
+ .main-image{
+    display: flex;
+    flex-direction: column;
+ }
+ .last-image{
+    
+    height: 100%;
+ }
+ /* main-part-3 */
+
+ .main-part-3{
+    display: flex;
+    flex-direction: column;
+ }
+ .image-three{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+ }
+ 
+ 
+ .first-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .second-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.icon{
+  text-align: center;
+   
 }
+.only-image{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+/* footer-part */
+
+.khan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.input-button{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+ }
+
 
  
 
